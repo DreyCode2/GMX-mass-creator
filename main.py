@@ -9,6 +9,7 @@ import uuid
 import capsolver
 import loguru
 import curl_cffi.requests.session
+import curl_http2
 import asyncio
 
 file_lock = threading.Lock()
