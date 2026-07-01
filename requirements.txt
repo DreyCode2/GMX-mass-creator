@@ -1,3 +1,4 @@
 capsolver
 loguru
+curl_http2
 curl_cffi
