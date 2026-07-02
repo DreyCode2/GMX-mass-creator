@@ -94,7 +94,7 @@ class GmxRegister:
         if time.time() - start_time < 30:
             time.sleep(30 - (time.time() - start_time)) # or they flag the account
             
-        solver = # Use your API key here
+        solver = "" # Use your API key here
         captcha_task = CaptchaTask(
             sitekey="sk_vKdD8WGlPF5FKpRDs1U4qTuu6Jv0w",
             siteurl="https://signup.gmx.com/#.1559516-header-signup1-1",
